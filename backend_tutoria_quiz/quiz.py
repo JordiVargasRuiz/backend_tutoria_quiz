@@ -46,7 +46,7 @@ def generar_quiz():
         )
 
         # Configuración del modelo
-        modelo = genai.GenerativeModel("gemini-1.5-pro-latest")
+        modelo = genai.GenerativeModel("gemini-2.0-flash")
         respuesta = modelo.generate_content(prompt)
 
         # Procesar respuesta
